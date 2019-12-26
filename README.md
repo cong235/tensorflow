@@ -7,6 +7,8 @@ cd tensorflowCUDA102\
 ./configure #setup your config \
 bazel build --config=mkl --config=v2 --config=opt //tensorflow/tools/pip_package:build_pip_package  
 
+Pip3 package TF with CUDA 10.2  
+https://1drv.ms/u/s!AoNSRhBiGSW1guhCwuwcSlrunmtZOg?e=v928R4  
 
 <div align="center">
   <img src="https://www.tensorflow.org/images/tf_logo_social.png">
