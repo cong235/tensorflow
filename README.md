@@ -1,11 +1,11 @@
-Usage:
-git clone https://github.com/cong235/tensorflowCUDA102.git
-git checkout r2.0 #For TF2.0
-git checkout r1.15 #For TF1.15
-
-cd tensorflowCUDA102
-./configure #setup your config
-bazel build --config=mkl --config=v2 --config=opt //tensorflow/tools/pip_package:build_pip_package
+Usage: \
+git clone https://github.com/cong235/tensorflowCUDA102.git \
+git checkout r2.0 #For TF2.0 \
+git checkout r1.15 #For TF1.15 \
+\
+cd tensorflowCUDA102\
+./configure #setup your config \
+bazel build --config=mkl --config=v2 --config=opt //tensorflow/tools/pip_package:build_pip_package \
 
 
 <div align="center">
